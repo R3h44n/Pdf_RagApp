@@ -23,10 +23,6 @@ export async function POST(req){
     const file = data.get("file");
     const fileType = ["application/pdf"];
 
-    if(!file){
-        return {Message: "file cannot be uploaded"}
-    }
-
     if(!fileType.includes(file.type)){
         return NextResponse.json({error: "file is not pdf"})
     }
