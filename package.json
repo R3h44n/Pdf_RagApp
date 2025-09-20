@@ -1,0 +1,40 @@
+{
+  "name": "rag-chat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@langchain/community": "^0.3.56",
+    "@langchain/core": "^0.3.75",
+    "@langchain/langgraph": "^0.4.9",
+    "@mui/material": "^7.3.2",
+    "@mui/utils": "^7.3.2",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "cohere-ai": "^7.19.0",
+    "langchain": "^0.3.33",
+    "next": "15.5.2",
+    "openai": "^5.20.0",
+    "pdf-parse": "^1.1.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
