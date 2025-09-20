@@ -7,13 +7,13 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export const pc = new Pinecone({
+const pc = new Pinecone({
   apiKey: process.env.PINECONE_API_KEY
 });
 
 const index = pc.index('ragmodel');
 
-export const openai = new OpenAI({
+const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
 });
 
